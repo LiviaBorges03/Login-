@@ -1,0 +1,57 @@
+* {
+    color: rgb(255, 255, 255);
+    text-align: justify; /* Adiciona alinhamento justificado ao texto */
+}
+
+.form {
+    background-color: rgba(214, 212, 212, 0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-image: url("https://cdn.steamstatic.com/steamcommunity/public/images/items/377570/d8d0c5b17ddff86d54bbe65d4d7956ab27cdac06.jpg");
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+}
+
+.button {
+    border-radius: 30px;
+    border-color: rgb(223, 222, 222);
+    border-left-color: rgb(17, 134, 212);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(68, 104, 204);
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    cursor: pointer; /* Adiciona o cursor de "mão" ao passar sobre o botão */
+    transition: background-color 0.3s, color 0.3s; /* Efeito de transição ao interagir */
+}
+
+.button:hover {
+    background-color: rgba(68, 104, 204, 0.8); /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    text-align: justify; /* Alinha o texto justificado */
+}
+
+.usuario, .password {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    text-align: justify; /* Alinha o texto justificado */
+}
+
+.body1 {
+    background-image: url("https://cdn.steamstatic.com/steamcommunity/public/images/items/377570/d8d0c5b17ddff86d54bbe65d4d7956ab27cdac06.jpg");
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
